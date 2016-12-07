@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DB_A102FB_beyondgovtModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="BeyondGovernmentEntities" p1:LazyLoadingEnabled="true">
+    <FunctionImport Name="USP_Account_Insert" ReturnType="Collection(String)">
+      <Parameter Name="Email" Mode="In" Type="String" />
+      <Parameter Name="Password" Mode="In" Type="String" />
+      <Parameter Name="FirstName" Mode="In" Type="String" />
+      <Parameter Name="LastName" Mode="In" Type="String" />
+      <Parameter Name="Phone" Mode="In" Type="String" />
+      <Parameter Name="Country" Mode="In" Type="String" />
+      <Parameter Name="Pin" Mode="In" Type="String" />
+      <Parameter Name="Expert" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="USP_Account_Verification" ReturnType="Collection(String)">
+      <Parameter Name="Email" Mode="In" Type="String" />
+      <Parameter Name="Password" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="USP_Expert_Insert" ReturnType="Collection(String)">
+      <Parameter Name="Email" Mode="In" Type="String" />
+      <Parameter Name="ExpertiseDomain" Mode="In" Type="String" />
+      <Parameter Name="OrganizationType" Mode="In" Type="String" />
+      <Parameter Name="OrganizationName" Mode="In" Type="String" />
+      <Parameter Name="JobTitle" Mode="In" Type="String" />
+      <Parameter Name="ConnectExpert" Mode="In" Type="Boolean" />
+      <Parameter Name="HelpOthers" Mode="In" Type="Boolean" />
+    </FunctionImport>
+  </EntityContainer>
+</Schema>

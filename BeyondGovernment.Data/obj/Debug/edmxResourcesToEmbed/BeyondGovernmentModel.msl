@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DB_A102FB_beyondgovtModelStoreContainer" CdmEntityContainer="BeyondGovernmentEntities">
+    <FunctionImportMapping FunctionImportName="USP_Account_Verification" FunctionName="DB_A102FB_beyondgovtModel.Store.USP_Account_Verification" />
+    <FunctionImportMapping FunctionImportName="USP_Account_InsertUpdate" FunctionName="DB_A102FB_beyondgovtModel.Store.USP_Account_InsertUpdate" />
+  </EntityContainerMapping>
+</Mapping>

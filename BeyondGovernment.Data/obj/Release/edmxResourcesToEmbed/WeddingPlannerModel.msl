@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WeddingPlannerModelStoreContainer" CdmEntityContainer="WeddingPlannerEntities">
+    <FunctionImportMapping FunctionImportName="USP_Account_Insert" FunctionName="WeddingPlannerModel.Store.USP_Account_Insert" />
+    <FunctionImportMapping FunctionImportName="USP_Account_Verification" FunctionName="WeddingPlannerModel.Store.USP_Account_Verification" />
+    <FunctionImportMapping FunctionImportName="USP_Account_ChangePassword" FunctionName="WeddingPlannerModel.Store.USP_Account_ChangePassword" />
+    <FunctionImportMapping FunctionImportName="USP_WeddingChecklistTimeline_InsertUpdate" FunctionName="WeddingPlannerModel.Store.USP_WeddingChecklistTimeline_InsertUpdate" />
+    <FunctionImportMapping FunctionImportName="USP_WeddingTimeline_Delete" FunctionName="WeddingPlannerModel.Store.USP_WeddingTimeline_Delete" />
+    <FunctionImportMapping FunctionImportName="USP_WeddingTimeline_InsertUpdate" FunctionName="WeddingPlannerModel.Store.USP_WeddingTimeline_InsertUpdate" />
+    <FunctionImportMapping FunctionImportName="USP_WeddingCountdown_Select" FunctionName="WeddingPlannerModel.Store.USP_WeddingCountdown_Select">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="WeddingPlannerModel.USP_WeddingCountdown_Select_Result">
+          <ScalarProperty Name="BrideName" ColumnName="BrideName" />
+          <ScalarProperty Name="GroomName" ColumnName="GroomName" />
+          <ScalarProperty Name="WeddingDate" ColumnName="WeddingDate" />
+          <ScalarProperty Name="WeddingTime" ColumnName="WeddingTime" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_WeddingCountdown_Update" FunctionName="WeddingPlannerModel.Store.USP_WeddingCountdown_Update" />
+    <FunctionImportMapping FunctionImportName="USP_ForgetPassword_Select" FunctionName="WeddingPlannerModel.Store.USP_ForgetPassword_Select" />
+  </EntityContainerMapping>
+</Mapping>

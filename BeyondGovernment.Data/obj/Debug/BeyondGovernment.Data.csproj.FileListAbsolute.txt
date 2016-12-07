@@ -1,0 +1,15 @@
+D:\MobileApplication\WeddingPlannerAPI\WeddingPlanner.Data\obj\Debug\BeyondGovernment.Data.csprojResolveAssemblyReference.cache
+D:\MobileApplication\WeddingPlannerAPI\WeddingPlanner.Data\bin\Debug\WeddingPlanner.Data.dll.config
+D:\MobileApplication\WeddingPlannerAPI\WeddingPlanner.Data\bin\Debug\WeddingPlanner.Data.dll
+D:\MobileApplication\WeddingPlannerAPI\WeddingPlanner.Data\bin\Debug\WeddingPlanner.Data.pdb
+D:\MobileApplication\WeddingPlannerAPI\WeddingPlanner.Data\bin\Debug\EntityFramework.dll
+D:\MobileApplication\WeddingPlannerAPI\WeddingPlanner.Data\obj\Debug\WeddingPlanner.Data.dll
+D:\MobileApplication\WeddingPlannerAPI\WeddingPlanner.Data\obj\Debug\WeddingPlanner.Data.pdb
+D:\MobileApplication\BeyondGovernmentAPI\BeyondGovernment.Data\bin\Debug\BeyondGovernment.Data.dll.config
+D:\MobileApplication\BeyondGovernmentAPI\BeyondGovernment.Data\bin\Debug\BeyondGovernment.Data.dll
+D:\MobileApplication\BeyondGovernmentAPI\BeyondGovernment.Data\bin\Debug\BeyondGovernment.Data.pdb
+D:\MobileApplication\BeyondGovernmentAPI\BeyondGovernment.Data\bin\Debug\EntityFramework.dll
+D:\MobileApplication\BeyondGovernmentAPI\BeyondGovernment.Data\bin\Debug\EntityFramework.xml
+D:\MobileApplication\BeyondGovernmentAPI\BeyondGovernment.Data\obj\Debug\BeyondGovernment.Data.csprojResolveAssemblyReference.cache
+D:\MobileApplication\BeyondGovernmentAPI\BeyondGovernment.Data\obj\Debug\BeyondGovernment.Data.dll
+D:\MobileApplication\BeyondGovernmentAPI\BeyondGovernment.Data\obj\Debug\BeyondGovernment.Data.pdb

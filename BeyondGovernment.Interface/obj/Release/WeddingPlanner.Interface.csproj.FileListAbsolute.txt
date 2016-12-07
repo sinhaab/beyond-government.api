@@ -1,0 +1,7 @@
+D:\MobileApplication\repos\WeddingPlannerAPI\WeddingPlanner.Interface\bin\Release\WeddingPlanner.Interface.dll
+D:\MobileApplication\repos\WeddingPlannerAPI\WeddingPlanner.Interface\bin\Release\WeddingPlanner.Interface.pdb
+D:\MobileApplication\repos\WeddingPlannerAPI\WeddingPlanner.Interface\bin\Release\WeddingPlanner.Entities.dll
+D:\MobileApplication\repos\WeddingPlannerAPI\WeddingPlanner.Interface\bin\Release\WeddingPlanner.Entities.pdb
+D:\MobileApplication\repos\WeddingPlannerAPI\WeddingPlanner.Interface\obj\Release\WeddingPlanner.Interface.csprojResolveAssemblyReference.cache
+D:\MobileApplication\repos\WeddingPlannerAPI\WeddingPlanner.Interface\obj\Release\WeddingPlanner.Interface.dll
+D:\MobileApplication\repos\WeddingPlannerAPI\WeddingPlanner.Interface\obj\Release\WeddingPlanner.Interface.pdb

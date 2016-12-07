@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DB_A102FB_beyondgovtModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="DB_A102FB_beyondgovtModelStoreContainer" />
+  <Function Name="USP_Account_InsertUpdate" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Email" Type="varchar" Mode="In" />
+    <Parameter Name="Password" Type="varchar" Mode="In" />
+    <Parameter Name="FirstName" Type="varchar" Mode="In" />
+    <Parameter Name="LastName" Type="varchar" Mode="In" />
+    <Parameter Name="Phone" Type="varchar" Mode="In" />
+    <Parameter Name="Country" Type="varchar" Mode="In" />
+    <Parameter Name="Pin" Type="varchar" Mode="In" />
+    <Parameter Name="InterestStayUpdate" Type="bit" Mode="In" />
+    <Parameter Name="InterestHelpOthers" Type="bit" Mode="In" />
+    <Parameter Name="InterestConnectExpert" Type="bit" Mode="In" />
+    <Parameter Name="Expert" Type="bit" Mode="In" />
+    <Parameter Name="ExpertiseDomain" Type="varchar" Mode="In" />
+    <Parameter Name="OrganizationType" Type="varchar" Mode="In" />
+    <Parameter Name="OrganizationName" Type="varchar" Mode="In" />
+    <Parameter Name="JobTitle" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="USP_Account_Verification" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Email" Type="varchar" Mode="In" />
+    <Parameter Name="Password" Type="varchar" Mode="In" />
+  </Function>
+</Schema>

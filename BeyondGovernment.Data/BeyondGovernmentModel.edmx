@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="DB_A102FB_beyondgovtModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="DB_A102FB_beyondgovtModelStoreContainer" />
+        <Function Name="USP_Account_InsertUpdate" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Email" Type="varchar" Mode="In" />
+          <Parameter Name="Password" Type="varchar" Mode="In" />
+          <Parameter Name="FirstName" Type="varchar" Mode="In" />
+          <Parameter Name="LastName" Type="varchar" Mode="In" />
+          <Parameter Name="Phone" Type="varchar" Mode="In" />
+          <Parameter Name="Country" Type="varchar" Mode="In" />
+          <Parameter Name="Pin" Type="varchar" Mode="In" />
+          <Parameter Name="InterestStayUpdate" Type="bit" Mode="In" />
+          <Parameter Name="InterestHelpOthers" Type="bit" Mode="In" />
+          <Parameter Name="InterestConnectExpert" Type="bit" Mode="In" />
+          <Parameter Name="Expert" Type="bit" Mode="In" />
+          <Parameter Name="ExpertiseDomain" Type="varchar" Mode="In" />
+          <Parameter Name="OrganizationType" Type="varchar" Mode="In" />
+          <Parameter Name="OrganizationName" Type="varchar" Mode="In" />
+          <Parameter Name="JobTitle" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="USP_Account_Verification" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Email" Type="varchar" Mode="In" />
+          <Parameter Name="Password" Type="varchar" Mode="In" />
+        </Function>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DB_A102FB_beyondgovtModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="BeyondGovernmentEntities" p1:LazyLoadingEnabled="true" >
+          <FunctionImport Name="USP_Account_Verification" ReturnType="Collection(String)">
+            <Parameter Name="Email" Mode="In" Type="String" />
+            <Parameter Name="Password" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="USP_Account_InsertUpdate" ReturnType="Collection(String)">
+            <Parameter Name="Email" Mode="In" Type="String" />
+            <Parameter Name="Password" Mode="In" Type="String" />
+            <Parameter Name="FirstName" Mode="In" Type="String" />
+            <Parameter Name="LastName" Mode="In" Type="String" />
+            <Parameter Name="Phone" Mode="In" Type="String" />
+            <Parameter Name="Country" Mode="In" Type="String" />
+            <Parameter Name="Pin" Mode="In" Type="String" />
+            <Parameter Name="InterestStayUpdate" Mode="In" Type="Boolean" />
+            <Parameter Name="InterestHelpOthers" Mode="In" Type="Boolean" />
+            <Parameter Name="InterestConnectExpert" Mode="In" Type="Boolean" />
+            <Parameter Name="Expert" Mode="In" Type="Boolean" />
+            <Parameter Name="ExpertiseDomain" Mode="In" Type="String" />
+            <Parameter Name="OrganizationType" Mode="In" Type="String" />
+            <Parameter Name="OrganizationName" Mode="In" Type="String" />
+            <Parameter Name="JobTitle" Mode="In" Type="String" />
+          </FunctionImport>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DB_A102FB_beyondgovtModelStoreContainer" CdmEntityContainer="BeyondGovernmentEntities" >
+          <FunctionImportMapping FunctionImportName="USP_Account_Verification" FunctionName="DB_A102FB_beyondgovtModel.Store.USP_Account_Verification" />
+          <FunctionImportMapping FunctionImportName="USP_Account_InsertUpdate" FunctionName="DB_A102FB_beyondgovtModel.Store.USP_Account_InsertUpdate" />
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

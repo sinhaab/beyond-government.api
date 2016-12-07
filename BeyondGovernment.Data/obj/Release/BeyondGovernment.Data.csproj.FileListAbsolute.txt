@@ -1,0 +1,8 @@
+D:\MobileApplication\BeyondGovernmentAPI\BeyondGovernment.Data\bin\Release\BeyondGovernment.Data.dll.config
+D:\MobileApplication\BeyondGovernmentAPI\BeyondGovernment.Data\bin\Release\BeyondGovernment.Data.dll
+D:\MobileApplication\BeyondGovernmentAPI\BeyondGovernment.Data\bin\Release\BeyondGovernment.Data.pdb
+D:\MobileApplication\BeyondGovernmentAPI\BeyondGovernment.Data\bin\Release\EntityFramework.dll
+D:\MobileApplication\BeyondGovernmentAPI\BeyondGovernment.Data\bin\Release\EntityFramework.xml
+D:\MobileApplication\BeyondGovernmentAPI\BeyondGovernment.Data\obj\Release\BeyondGovernment.Data.csprojResolveAssemblyReference.cache
+D:\MobileApplication\BeyondGovernmentAPI\BeyondGovernment.Data\obj\Release\BeyondGovernment.Data.dll
+D:\MobileApplication\BeyondGovernmentAPI\BeyondGovernment.Data\obj\Release\BeyondGovernment.Data.pdb

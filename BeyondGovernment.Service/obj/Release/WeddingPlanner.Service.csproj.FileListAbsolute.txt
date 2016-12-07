@@ -1,0 +1,13 @@
+D:\MobileApplication\repos\WeddingPlannerAPI\WeddingPlanner.Service\bin\Release\WeddingPlanner.Service.dll
+D:\MobileApplication\repos\WeddingPlannerAPI\WeddingPlanner.Service\bin\Release\WeddingPlanner.Service.pdb
+D:\MobileApplication\repos\WeddingPlannerAPI\WeddingPlanner.Service\bin\Release\EntityFramework.dll
+D:\MobileApplication\repos\WeddingPlannerAPI\WeddingPlanner.Service\bin\Release\WeddingPlanner.Data.dll
+D:\MobileApplication\repos\WeddingPlannerAPI\WeddingPlanner.Service\bin\Release\WeddingPlanner.Entities.dll
+D:\MobileApplication\repos\WeddingPlannerAPI\WeddingPlanner.Service\bin\Release\WeddingPlanner.Interface.dll
+D:\MobileApplication\repos\WeddingPlannerAPI\WeddingPlanner.Service\bin\Release\WeddingPlanner.Data.pdb
+D:\MobileApplication\repos\WeddingPlannerAPI\WeddingPlanner.Service\bin\Release\WeddingPlanner.Entities.pdb
+D:\MobileApplication\repos\WeddingPlannerAPI\WeddingPlanner.Service\bin\Release\WeddingPlanner.Interface.pdb
+D:\MobileApplication\repos\WeddingPlannerAPI\WeddingPlanner.Service\bin\Release\EntityFramework.xml
+D:\MobileApplication\repos\WeddingPlannerAPI\WeddingPlanner.Service\obj\Release\WeddingPlanner.Service.csprojResolveAssemblyReference.cache
+D:\MobileApplication\repos\WeddingPlannerAPI\WeddingPlanner.Service\obj\Release\WeddingPlanner.Service.dll
+D:\MobileApplication\repos\WeddingPlannerAPI\WeddingPlanner.Service\obj\Release\WeddingPlanner.Service.pdb

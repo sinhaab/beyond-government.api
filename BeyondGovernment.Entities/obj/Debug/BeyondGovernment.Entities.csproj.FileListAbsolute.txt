@@ -1,0 +1,8 @@
+D:\MobileApplication\WeddingPlannerAPI\WeddingPlanner.Entities\bin\Debug\WeddingPlanner.Entities.dll
+D:\MobileApplication\WeddingPlannerAPI\WeddingPlanner.Entities\bin\Debug\WeddingPlanner.Entities.pdb
+D:\MobileApplication\WeddingPlannerAPI\WeddingPlanner.Entities\obj\Debug\WeddingPlanner.Entities.dll
+D:\MobileApplication\WeddingPlannerAPI\WeddingPlanner.Entities\obj\Debug\WeddingPlanner.Entities.pdb
+D:\MobileApplication\BeyondGovernmentAPI\BeyondGovernment.Entities\bin\Debug\BeyondGovernment.Entities.dll
+D:\MobileApplication\BeyondGovernmentAPI\BeyondGovernment.Entities\bin\Debug\BeyondGovernment.Entities.pdb
+D:\MobileApplication\BeyondGovernmentAPI\BeyondGovernment.Entities\obj\Debug\BeyondGovernment.Entities.dll
+D:\MobileApplication\BeyondGovernmentAPI\BeyondGovernment.Entities\obj\Debug\BeyondGovernment.Entities.pdb

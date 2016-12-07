@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BeyondGovtModelStoreContainer" CdmEntityContainer="BeyondGovtEntities">
+    <FunctionImportMapping FunctionImportName="USP_Account_ChangePassword" FunctionName="BeyondGovtModel.Store.USP_Account_ChangePassword" />
+    <FunctionImportMapping FunctionImportName="USP_Account_Insert" FunctionName="BeyondGovtModel.Store.USP_Account_Insert" />
+    <FunctionImportMapping FunctionImportName="USP_Account_Verification" FunctionName="BeyondGovtModel.Store.USP_Account_Verification" />
+    <FunctionImportMapping FunctionImportName="USP_ForgetPassword_Select" FunctionName="BeyondGovtModel.Store.USP_ForgetPassword_Select" />
+  </EntityContainerMapping>
+</Mapping>
